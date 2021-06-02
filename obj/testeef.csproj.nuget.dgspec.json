@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marina\\Desktop\\testeef\\testeef.csproj": {}
+    "C:\\Users\\Marina\\Desktop\\123\\API\\testeef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marina\\Desktop\\testeef\\testeef.csproj": {
+    "C:\\Users\\Marina\\Desktop\\123\\API\\testeef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marina\\Desktop\\testeef\\testeef.csproj",
+        "projectUniqueName": "C:\\Users\\Marina\\Desktop\\123\\API\\testeef.csproj",
         "projectName": "testeef",
-        "projectPath": "C:\\Users\\Marina\\Desktop\\testeef\\testeef.csproj",
+        "projectPath": "C:\\Users\\Marina\\Desktop\\123\\API\\testeef.csproj",
         "packagesPath": "C:\\Users\\Marina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marina\\Desktop\\testeef\\obj\\",
+        "outputPath": "C:\\Users\\Marina\\Desktop\\123\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,7 +46,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.6, )"
             },
