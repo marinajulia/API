@@ -9,8 +9,8 @@ using testeef.Data;
 namespace testeef.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210602140007_MyFirstMigrationcerto")]
-    partial class MyFirstMigrationcerto
+    [Migration("20210602141106_morango")]
+    partial class morango
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

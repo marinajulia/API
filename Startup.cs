@@ -30,7 +30,7 @@ namespace testeef
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContext<DataContext>(options => options.UseSqlServer(@"Data Source=DESKTOP-8024PRG\SERVIDOR;Initial Catalog=vaidar;Integrated Security=True"));
+            services.AddDbContext<DataContext>(options => options.UseSqlServer(@"Data Source=DESKTOP-8024PRG\SERVIDOR;Initial Catalog=morango;Integrated Security=True"));
             services.AddScoped<DataContext, DataContext>();
 
             services.AddControllers();
